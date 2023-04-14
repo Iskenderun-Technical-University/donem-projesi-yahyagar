@@ -10,4 +10,4 @@
 
 -Reçete
 
-Projenin amacı diş klinikleklerinde hastaların kaydını tutmak, reçetesini oluşturmak, böylece önceki sağlık durumunu da izleyebilmek..
+Projenin amacı diş klinikleklerinde hastaların kaydını tutmak, reçetesini oluşturmak, hastanın ve doktorun işini kolaylaştırmak.
