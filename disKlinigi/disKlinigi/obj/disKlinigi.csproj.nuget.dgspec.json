@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yahya\\Desktop\\disKlinigi\\disKlinigi\\disKlinigi.csproj": {}
+    "C:\\Users\\yahya\\Desktop\\donem-projesi-yahyagar\\disKlinigi\\disKlinigi\\disKlinigi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yahya\\Desktop\\disKlinigi\\disKlinigi\\disKlinigi.csproj": {
+    "C:\\Users\\yahya\\Desktop\\donem-projesi-yahyagar\\disKlinigi\\disKlinigi\\disKlinigi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yahya\\Desktop\\disKlinigi\\disKlinigi\\disKlinigi.csproj",
+        "projectUniqueName": "C:\\Users\\yahya\\Desktop\\donem-projesi-yahyagar\\disKlinigi\\disKlinigi\\disKlinigi.csproj",
         "projectName": "disKlinigi",
-        "projectPath": "C:\\Users\\yahya\\Desktop\\disKlinigi\\disKlinigi\\disKlinigi.csproj",
+        "projectPath": "C:\\Users\\yahya\\Desktop\\donem-projesi-yahyagar\\disKlinigi\\disKlinigi\\disKlinigi.csproj",
         "packagesPath": "C:\\Users\\yahya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yahya\\Desktop\\disKlinigi\\disKlinigi\\obj\\",
+        "outputPath": "C:\\Users\\yahya\\Desktop\\donem-projesi-yahyagar\\disKlinigi\\disKlinigi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yahya\\AppData\\Roaming\\NuGet\\NuGet.Config",
