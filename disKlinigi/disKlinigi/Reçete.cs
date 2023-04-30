@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace disKlinigi
 {
-    public partial class hasta : Form
+    public partial class Reçete : Form
     {
-        public hasta()
+        public Reçete()
         {
             InitializeComponent();
-        }
-
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

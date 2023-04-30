@@ -10,19 +10,29 @@ using System.Windows.Forms;
 
 namespace disKlinigi
 {
-    public partial class hasta : Form
+    public partial class Tedavi : Form
     {
-        public hasta()
+        public Tedavi()
         {
             InitializeComponent();
         }
 
-        private void Form2_Load(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Tedavi_Load(object sender, EventArgs e)
         {
 
         }
