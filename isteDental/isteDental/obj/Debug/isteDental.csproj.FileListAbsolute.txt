@@ -1,0 +1,16 @@
+C:\Users\yahya\Desktop\donem-projesi-yahyagar\isteDental\isteDental\obj\Debug\isteDental.csproj.AssemblyReference.cache
+C:\Users\yahya\Desktop\donem-projesi-yahyagar\isteDental\isteDental\obj\Debug\isteDental.csproj.SuggestedBindingRedirects.cache
+C:\Users\yahya\Desktop\donem-projesi-yahyagar\isteDental\isteDental\obj\Debug\isteDental.Hasta.resources
+C:\Users\yahya\Desktop\donem-projesi-yahyagar\isteDental\isteDental\obj\Debug\isteDental.home.resources
+C:\Users\yahya\Desktop\donem-projesi-yahyagar\isteDental\isteDental\obj\Debug\isteDental.Login.resources
+C:\Users\yahya\Desktop\donem-projesi-yahyagar\isteDental\isteDental\obj\Debug\isteDental.Properties.Resources.resources
+C:\Users\yahya\Desktop\donem-projesi-yahyagar\isteDental\isteDental\obj\Debug\isteDental.Randevu.resources
+C:\Users\yahya\Desktop\donem-projesi-yahyagar\isteDental\isteDental\obj\Debug\isteDental.Tedavi.resources
+C:\Users\yahya\Desktop\donem-projesi-yahyagar\isteDental\isteDental\obj\Debug\isteDental.Reçete.resources
+C:\Users\yahya\Desktop\donem-projesi-yahyagar\isteDental\isteDental\obj\Debug\isteDental.csproj.GenerateResource.cache
+C:\Users\yahya\Desktop\donem-projesi-yahyagar\isteDental\isteDental\obj\Debug\isteDental.csproj.CoreCompileInputs.cache
+C:\Users\yahya\Desktop\donem-projesi-yahyagar\isteDental\isteDental\bin\Debug\isteDental.exe.config
+C:\Users\yahya\Desktop\donem-projesi-yahyagar\isteDental\isteDental\bin\Debug\isteDental.exe
+C:\Users\yahya\Desktop\donem-projesi-yahyagar\isteDental\isteDental\bin\Debug\isteDental.pdb
+C:\Users\yahya\Desktop\donem-projesi-yahyagar\isteDental\isteDental\obj\Debug\isteDental.exe
+C:\Users\yahya\Desktop\donem-projesi-yahyagar\isteDental\isteDental\obj\Debug\isteDental.pdb

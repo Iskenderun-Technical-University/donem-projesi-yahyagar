@@ -144,6 +144,7 @@
             this.label3.Size = new System.Drawing.Size(126, 26);
             this.label3.TabIndex = 8;
             this.label3.Text = "Tedavi Adı :";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // button4
             // 
