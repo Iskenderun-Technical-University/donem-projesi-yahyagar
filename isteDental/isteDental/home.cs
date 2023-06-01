@@ -21,5 +21,12 @@ namespace isteDental
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Randevu rnd = new Randevu();
+            rnd.Show(); 
+            this.Hide();
+        }
     }
 }

@@ -74,6 +74,7 @@
     <Compile Include="Randevu.Designer.cs">
       <DependentUpon>Randevu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Randevular.cs" />
     <Compile Include="Tedavi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +87,7 @@
     <Compile Include="Reçete.Designer.cs">
       <DependentUpon>Reçete.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tedaviler.cs" />
     <EmbeddedResource Include="Hasta.resx">
       <DependentUpon>Hasta.cs</DependentUpon>
     </EmbeddedResource>
