@@ -34,6 +34,7 @@ namespace isteDental
             {
                 Hs.HastaEkle(query);
                 MessageBox.Show("Tedavi Başarıyla Eklendi.");
+                uyeler();
             }
             catch (Exception ex)
             {
@@ -41,13 +42,17 @@ namespace isteDental
             }
             baglanti.Close();
         }
-
-        private void Tedavi_Load(object sender, EventArgs e)
+        void uyeler()
         {
             hastalar Hs = new hastalar();
             string query = "select * from TedaviTbl";
             DataSet ds = Hs.ShowHasta(query);
             TedaviDGV.DataSource = ds.Tables[0];
+        }
+
+        private void Tedavi_Load(object sender, EventArgs e)
+        {
+           uyeler();
         }
         int key = 0;
         private void TedaviDGV_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -75,6 +80,18 @@ namespace isteDental
         private void label7_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            home hm = new home();
+            hm.Show();
+            this.Hide();
         }
     }
 }

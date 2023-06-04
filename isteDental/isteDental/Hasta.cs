@@ -91,5 +91,17 @@ namespace isteDental
                 key = Convert.ToInt32(HastaDGV.SelectedRows[0].Cells[0].Value.ToString());
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            home hm = new home();
+            hm.Show();
+            this.Hide();
+        }
     }
 }

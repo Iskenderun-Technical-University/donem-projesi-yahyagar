@@ -17,6 +17,7 @@ namespace isteDental
         {
             InitializeComponent();
         }
+      
 
         private void Randevu_Load(object sender, EventArgs e)
         {
@@ -25,7 +26,6 @@ namespace isteDental
         }
         ConnectionString Mycon=new ConnectionString();
 
-        public object RtedavidCb { get; private set; }
 
         private void fiilHasta()
         {
@@ -33,7 +33,7 @@ namespace isteDental
             baglanti.Open();
             SqlCommand komut=new SqlCommand("select HAd from HastaTbl",baglanti);
             SqlDataReader rdr;
-            rdr =komut.ExecuteReader();
+            rdr = komut.ExecuteReader();
             DataTable dt= new DataTable();
             dt.Columns.Add("HAd",typeof(string));
             dt.Load(rdr);
@@ -103,27 +103,12 @@ namespace isteDental
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             ConnectionString MyConnection = new ConnectionString();
             SqlConnection baglanti = MyConnection.Getcon();
 
-            string query = "insert into RandevuTbl values('" + RadCb.SelectedValue.ToString() + "','" + RtedaviCb.SelectedValue.ToString() + "','" + Rtarih.Value.Date + "','"+SaatCb.Text+"')";
+            string query = "insert into RandevuTbl values('" + RadCb.SelectedValue.ToString() + "','" + RtedaviCb.SelectedValue.ToString() + "','" + Rtarih.Value.Date + "','" + SaatCb.Text + "')";
             hastalar Hs = new hastalar();
             try
             {
@@ -163,6 +148,13 @@ namespace isteDental
         private void label7_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            home hm = new home();
+            hm.Show();
+            this.Hide();
         }
     }
     }
