@@ -28,7 +28,7 @@ namespace isteDental
             ConnectionString MyConnection = new ConnectionString();
             SqlConnection baglanti = MyConnection.Getcon();
 
-            string query = "insert into TedaviTbl values('" + TedaviAdiTb.Text + "','" + TutarTb.Text + "','"+AciklamaTb+"')";
+            string query = "insert into TedaviTbl values('" + TedaviAdiTb.Text + "','" + TutarTb.Text + "','"+AciklamaTb.Text+"')";
             hastalar Hs = new hastalar();
             try
             {

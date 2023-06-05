@@ -42,7 +42,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.TutarTb = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
             this.HastaASCb = new System.Windows.Forms.ComboBox();
@@ -189,13 +189,13 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "Tutar :";
             // 
-            // textBox3
+            // TutarTb
             // 
-            this.textBox3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox3.Location = new System.Drawing.Point(212, 311);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(167, 27);
-            this.textBox3.TabIndex = 5;
+            this.TutarTb.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.TutarTb.Location = new System.Drawing.Point(212, 311);
+            this.TutarTb.Name = "TutarTb";
+            this.TutarTb.Size = new System.Drawing.Size(167, 27);
+            this.TutarTb.TabIndex = 5;
             // 
             // dataGridView1
             // 
@@ -242,7 +242,7 @@
             this.Controls.Add(this.HastaASCb);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.TutarTb);
             this.Controls.Add(this.TedaviTb);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -270,7 +270,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox TutarTb;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ComboBox HastaASCb;

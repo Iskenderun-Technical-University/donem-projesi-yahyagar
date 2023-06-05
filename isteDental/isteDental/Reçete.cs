@@ -91,12 +91,12 @@ namespace isteDental
             ConnectionString MyConnection = new ConnectionString();
             SqlConnection baglanti = MyConnection.Getcon();
 
-            string query = "insert into HastaTbl values('" + HAdSoyad.Text + "','" + HTelefon.Text + "','" + HAdres.Text + "','" + HDogumTarihi.Value.Date + "','" + HCinsiyet.SelectedItem.ToString() + "','" + HAlerji.Text + "')";
+            string query = "insert into ReceteTbl values('" + HastaASCb.Text + "','" + TedaviTb.Text + "','" + TutarTb.Text + "')";
             hastalar Hs = new hastalar();
             try
             {
                 Hs.HastaEkle(query);
-                MessageBox.Show("Hasta Başarıyla Eklendi.");
+                MessageBox.Show("Recete Başarıyla Eklendi.");
             }
             catch (Exception ex)
             {
@@ -106,4 +106,4 @@ namespace isteDental
         }
     }
     }
-}
+
